@@ -12,7 +12,7 @@ public class MapGenerator : MonoBehaviour
     }
     [SerializeField] private DrawMode _drawMode;
 
-    const int MAPCHUNKSIZE = 241;
+    public const int MAPCHUNKSIZE = 241;
 
     [Range(0,6)]
     [SerializeField] private int _levelOfDetail;
